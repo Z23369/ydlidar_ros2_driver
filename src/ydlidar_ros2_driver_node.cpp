@@ -128,7 +128,7 @@ int main(int argc, char *argv[]) {
   b_optvalue = false;
   node->declare_parameter("debug");
   node->get_parameter("debug", b_optvalue);
-  laser.setEnableDebug(b_optvalue);
+  // laser.setEnableDebug(b_optvalue);
 
   //////////////////////float property/////////////////
   /// unit: °
